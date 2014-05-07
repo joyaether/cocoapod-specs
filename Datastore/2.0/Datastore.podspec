@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/joyaether/datastore-ios'
   s.author = { 'Stanley Lam' => 'stanleylam@joyaether.com' }
   s.source = { :git => 'https://github.com/joyaether/datastore-ios.git' }
-  s.require_arc = true
+  s.requires_arc = true
   s.framework = 'Security'
   s.dependency 'AFNetworking', '~> 2.2'
   s.dependency 'SBJson', '~> 4.0.1'

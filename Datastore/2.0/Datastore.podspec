@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 2.2'
   s.dependency 'SBJson', '~> 4.0.1'
   s.dependency 'SQLCipher', '~>3.0.1'
-  s.dependency 'OpenSSL', '~>1.0.1'
 
   s.public_header_files = 'Datastore/**/*.h'
   s.source_files = 'Datastore/Datastore.h'

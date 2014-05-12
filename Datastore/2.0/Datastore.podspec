@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'AFNetworking', '~> 2.2'
   s.dependency 'SBJson', '~> 4.0.1'
-  s.dependency 'SQLCipher', '~>3.0.1'
+  s.dependency 'FMDB/SQLCipher'
 
   s.public_header_files = 'Datastore/**/*.h'
   s.source_files = 'Datastore/Datastore.h'
 
   s.subspec 'Additions' do |add|
-    add.source_files = 'Additions/*.{h,m}'
+    add.source_files = 'Datastore/Additions/*.{h,m}'
   end
 
   s.subspec 'Core' do |core|

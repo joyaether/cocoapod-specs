@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'Datastore'
   s.version = '2.0'
-  s.platform = :ios, '5.0'
+  s.platform = :ios, '6.0'
   s.license = 'Closed'
   s.summary = 'Provides access to both REST and SQLite data store'
   s.homepage = 'https://github.com/joyaether/datastore-ios'

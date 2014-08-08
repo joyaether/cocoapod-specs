@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |core|
     core.dependency 'Datastore/Additions'
-    core.source_files = 'Datastore/*.{h,m}', 'Datastore/Core/*.{h,m}', 'Datastore/ORM/*.{h,m}'
+    core.source_files = 'Datastore/*.{h,m}', 'Datastore/Core/*.{h,m}', 'Datastore/ORM/*.{h,m}', 'Datastore/REST/*.{h,m}'
   end
 
   s.subspec 'JSON' do |json|

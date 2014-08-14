@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Utilities' do |util|
-    util.dependency = 'zipzap', '~>7.0'
+    util.dependency 'zipzap', '~>7.0'
     util.source_files = 'Datastore/Utilities/*.{h,m}'
   end
 end

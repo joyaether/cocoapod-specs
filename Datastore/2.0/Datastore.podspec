@@ -39,7 +39,8 @@ Pod::Spec.new do |s|
     orm.source_files = 'Datastore/ORM/*.{h,m}'
   end
 
-  s.subspec 'Download' do |download|
-    download.source_files = 'Datastore/Download/*.{h,m}'
+  s.subspec 'Utilities' do |util|
+    util.dependency = 'zipzap', '~>7.0'
+    util.source_files = 'Datastore/Utilities/*.{h,m}'
   end
 end

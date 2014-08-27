@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     'Database/UIImageView+AFNetworking.m'
 
   s.subspec 'ARC' do |arc|
-    arc.require_arc = true
+    arc.requires_arc = true
     arc.source_files = arc_files
   end
 end

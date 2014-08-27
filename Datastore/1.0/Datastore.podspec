@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.requires_arc = false
 
   s.public_header_files = 'Database/**/*.h', '*.{h}'
-  s.source_files = 'Database/Database.h'
+  s.source_files = 'Database/*.{h,m}', '*.{h,m}'
 end

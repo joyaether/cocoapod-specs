@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
     'Database/AFURLConnectionOperation.m',
     'Database/AFXMLRequestOperation.m',
     'Database/UIImageView+AFNetworking.m'
+  s.exclude_files = arc_files
 
   s.subspec 'ARC' do |arc|
     arc.requires_arc = true
